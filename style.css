@@ -5,18 +5,18 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
     flex-direction: column;
+    text-align: center; 
 }
 
 header {
-    text-align: center;
     padding: 20px;
     background-color: #333;
     color: white;
-    width: 100%; 
+    width: 100%;
 }
 
 .title {
@@ -34,9 +34,9 @@ nav ul {
     justify-content: center;
     background-color: #444;
     list-style-type: none;
-    margin: 0;
+    margin: 20px 0; 
     padding: 0;
-    width: 100%; 
+    width: 100%;
 }
 
 nav ul li {
@@ -55,12 +55,12 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 section {
-    margin: 20px;
     padding: 20px;
     background-color: white;
     border: 1px solid #ddd;
-    text-align: center; 
-    max-width: 800px; 
+    max-width: 800px;
+    width: 100%;
+    margin: 10px 0;
 }
 
 .section-title {
@@ -80,6 +80,8 @@ footer {
     background-color: #333;
     color: white;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 /* Projects grid */
@@ -88,6 +90,7 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     max-width: 800px;
+    width: 100%;
 }
 
 .project {
